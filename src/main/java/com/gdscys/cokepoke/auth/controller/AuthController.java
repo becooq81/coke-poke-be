@@ -43,6 +43,8 @@ public class AuthController {
                 .body(tokenInfo);
     }
 
+
+
     private ResponseCookie generateCookie(String from, String token) {
         return ResponseCookie.from(from, token)
                 .httpOnly(true) // false로 하면 클라이언트도 쿠키로 접근할 수 있기 때문에 보안상 조치
