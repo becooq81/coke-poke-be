@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import static org.springframework.http.HttpHeaders.SET_COOKIE;
 
 @Controller
-@RequestMapping("/api/auth")
+@RequestMapping("/auth")
 @RequiredArgsConstructor
 public class AuthController {
     private final MemberService memberService;
