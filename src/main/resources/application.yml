@@ -2,7 +2,7 @@ server:
   port: 8080
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/~/testdb
+    url: jdbc:h2:tcp://~/testdb
     username: sa
     password: password
     driver-class-name: org.h2.Driver
